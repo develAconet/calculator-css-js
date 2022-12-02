@@ -1,7 +1,7 @@
 ---
 ## Program Demo 
 
-- #### [Demo](https://develaconet.github.io/claculator-css-js/)-View the program demo.
+- #### [Demo](https://develaconet.github.io/calculator-css-js/)-View the program demo.
 
 - ### HTML
 - ### CSS
