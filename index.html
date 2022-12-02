@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>Aconet</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+         
+        <select id="dark-mode">
+            <option value="light">روشن</option>
+            <option value="dark">تاریک</option>
+        </select>
+         
+        <form id="calculator" name="form">
+    <div class="display">
+      <input type="text" placeholder="0" id="displayResult" name="displayResult" readonly="readonly"/>
+    </div>
+      <div class="buttons">
+       
+        <div class="row">
+          <input type="button" class="func-btn wid-2" name="clear" value="C">
+          <input type="button" class="func-btn wid-2" name="backspace" value="←">
+        </div>
+       
+        <div class="row">
+        <input type="button" class="func-btn" name="b7" value="7">
+          <input type="button" class="func-btn" name="b8" value="8">
+          <input type="button" class="func-btn" name="b9" value="9">
+          <input type="button" class="func-btn" name="addb" value="+" style="background: rgb(9, 237, 245);border:1px solid rgb(9, 237, 245);">
+        </div>
+         
+        <div class="row">
+        <input type="button" class="func-btn" name="b4" value="4">
+          <input type="button" class="func-btn" name="b5" value="5">
+          <input type="button" class="func-btn" name="b6" value="6">
+          <input type="button" class="func-btn" name="subb" value="-" style="background: rgb(9, 237, 245);border:1px solid rgb(9, 237, 245);">
+        </div>
+         
+        <div class="row">
+        <input type="button" class="func-btn" name="b1" value="1">
+          <input type="button" class="func-btn" name="b2" value="2">
+          <input type="button" class="func-btn" name="b3" value="3">
+          <input type="button" class="func-btn" name="mulb" value="*" style="background: rgb(9, 237, 245);border:1px solid rgb(9, 237, 245);">
+        </div>
+         
+        <div class="row">
+        <input type="button" class="func-btn" name="b0" value="0">
+          <input type="button" class="func-btn" name="potb" value=".">
+          <input type="button" class="func-btn" name="divb" value="/" >
+          <input type="button" class="func-btn red" name="equal" value="=">
+        </div>
+         
+      </div>
+    </form>   
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
